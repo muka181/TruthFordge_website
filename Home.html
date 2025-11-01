@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthForge - AI That Serves Democracy, Not Destroys It</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <div class="logo-symbol"></div>
+                TruthForge
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item">
+                    <a href="about.html">About Us</a>
+                    <div class="dropdown">
+                        <a href="mission-vision.html">Mission & Vision</a>
+                        <a href="our-history.html">Our History</a>
+                        <a href="leadership.html">Leadership</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="our-team.html">Our Team</a>
+                    <div class="dropdown">
+                        <a href="executive-team.html">Executive Team</a>
+                        <a href="advisory-board.html">Advisory Board</a>
+                        <a href="advocacy-team.html">Advocacy Team</a>
+                        <a href="research-team.html">Research & Knowledge</a>
+                        <a href="communications-team.html">Communications Team</a>
+                        <a href="training-team.html">Training & Capacity Building</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="our-work.html">Our Work</a>
+                    <div class="dropdown">
+                        <a href="democratic-ai.html">Democratic AI Governance</a>
+                        <a href="transparency.html">Government Transparency</a>
+                        <a href="electoral.html">Electoral Integrity</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="programs.html">Programs & Initiatives</a>
+                    <div class="dropdown">
+                        <a href="democracy-labs.html">Democracy Labs</a>
+                        <a href="civic-tech.html">Civic Tech Incubator</a>
+                        <a href="policy-fellowship.html">Policy Fellowship Program</a>
+                        <a href="community-pilots.html">Community Governance Pilots</a>
+                        <a href="catalyst-project.html">Catalyst for Change Project</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="media.html">Media</a>
+                    <div class="dropdown">
+                        <a href="publications.html">Publications</a>
+                        <a href="press-releases.html">Press Releases</a>
+                        <a href="webinars.html">Webinars</a>
+                        <a href="podcast.html">Podcast</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="resources.html">Resources</a>
+                    <div class="dropdown">
+                        <a href="research-papers.html">Research Papers</a>
+                        <a href="policy-briefs.html">Policy Briefs</a>
+                        <a href="toolkits.html">Toolkits</a>
+                        <a href="training-materials.html">Training Materials</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="join-us.html">Join Us</a>
+                    <div class="dropdown">
+                        <a href="get-involved.html">Get Involved</a>
+                        <a href="careers.html">Careers</a>
+                        <a href="fellowships.html">Fellowships</a>
+                        <a href="partnerships.html">Partnerships</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="donate.html" class="nav-donate">Donate</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-cta">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-tagline">AI That Serves Democracy, Not Destroys It</h1>
+                    <p class="hero-subtitle">Championing democratic governance in the age of artificial intelligence</p>
+                    <p class="hero-description">
+                        TruthForge champions democratic governance in the age of artificial intelligence, ensuring that AI systems strengthen rather than undermine democratic institutions, citizen participation, and governmental transparency.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="our-work.html" class="btn btn-primary">
+                            <i data-lucide="arrow-right"></i>
+                            Explore Our Work
+                        </a>
+                        <a href="democracy-labs.html" class="btn btn-outline">Join Democracy Labs</a>
+                    </div>
+                </div>
+                <div class="hero-video">
+                    <div class="video-placeholder" onclick="playVideo()">
+                        <div class="play-icon">
+                            <i data-lucide="play" style="font-size: 1.5rem; margin-left: 4px;"></i>
+                        </div>
+                    </div>
+                    <h4 style="color: white; margin-bottom: 0.5rem;">Watch Our Story</h4>
+                    <p style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">Learn how we're building democratic AI governance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About TruthForge</h2>
+                <p class="section-subtitle">
+                    TruthForge is a pioneering organization dedicated to ensuring that artificial intelligence serves democracy rather than undermining it. We work at the intersection of technology and governance to build systems that empower citizens and strengthen democratic institutions.
+                </p>
+            </div>
+        </section>
+
+        <!-- Focus Areas Section -->
+        <section id="our-work" class="section">
+            <div class="container">
+                <h2 class="section-title">Our Focus Areas</h2>
+                <p class="section-subtitle">
+                    Building democratic AI governance through three core areas that prioritize transparency, accountability, and citizen empowerment.
+                </p>
+                
+                <div class="focus-areas">
+                    <div class="focus-card" onclick="openModal('democraticAI')" tabindex="0">
+                        <h3><i data-lucide="building"></i> Democratic AI Governance</h3>
+                        <p>Creating frameworks for AI governance that prioritize citizen welfare over corporate interests through community-controlled development and deployment.</p>
+                        <ul>
+                            <li>Policy Development</li>
+                            <li>Algorithmic Accountability</li>
+                            <li>Participatory AI Design</li>
+                            <li>Digital Rights Protection</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="focus-card" onclick="openModal('transparency')" tabindex="0">
+                        <h3><i data-lucide="search"></i> Government Transparency</h3>
+                        <p>Building platforms that make government data accessible and actionable for citizens while creating tools for tracking performance and spending.</p>
+                        <ul>
+                            <li>Open Data Initiatives</li>
+                            <li>Transparency Tools</li>
+                            <li>Anti-Corruption Technology</li>
+                            <li>Civic Engagement Platforms</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="focus-card" onclick="openModal('electoral')" tabindex="0">
+                        <h3><i data-lucide="vote"></i> Electoral Integrity</h3>
+                        <p>Developing secure, verifiable voting systems that enhance rather than compromise election integrity while combating misinformation.</p>
+                        <ul>
+                            <li>Election Security</li>
+                            <li>Misinformation Combat</li>
+                            <li>Voter Education</li>
+                            <li>Electoral Transparency</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section class="section programs-section">
+            <div class="container">
+                <h2 class="section-title">Key Programs & Initiatives</h2>
+                <p class="section-subtitle">
+                    Transforming democratic governance through innovative programs that build capacity, conduct research, and test new models of participatory democracy.
+                </p>
+                
+                <div class="programs-grid">
+                    <div class="program-card">
+                        <span class="program-icon">🔬</span>
+                        <h3>Democracy Labs</h3>
+                        <p>Research initiatives exploring the intersection of AI and democratic governance, developing cutting-edge solutions for 21st-century democracy.</p>
+                    </div>
+                    
+                    <div class="program-card">
+                        <span class="program-icon">🚀</span>
+                        <h3>Civic Tech Incubator</h3>
+                        <p>Supporting grassroots organizations developing democratic technology solutions that empower communities and strengthen civic participation.</p>
+                    </div>
+                    
+                    <div class="program-card">
+                        <span class="program-icon">🎓</span>
+                        <h3>Policy Fellowship Program</h3>
+                        <p>Training next-generation policy makers in ethical AI governance, building expertise for democratic technology oversight.</p>
+                    </div>
+                    
+                    <div class="program-card">
+                        <span class="program-icon">🏘️</span>
+                        <h3>Community Governance Pilots</h3>
+                        <p>Testing new models of participatory democracy enhanced by AI, creating blueprints for community-controlled democratic innovation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section class="section partners-section">
+            <div class="container">
+                <h2 class="section-title">Our Partners</h2>
+                <p class="section-subtitle">
+                    Collaborating with leading organizations to strengthen democratic institutions and promote transparent governance worldwide.
+                </p>
+                
+                <div class="partnerships-grid">
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 100'%3E%3Crect width='300' height='100' fill='%23f8fafc'/%3E%3Ctext x='150' y='50' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-size='14' fill='%234a5568'%3EWFD Logo%3C/text%3E%3C/svg%3E" alt="Westminster Foundation for Democracy" style="width: 120px; height: 40px;">
+                        </div>
+                        <p>Supporting democratic institutions globally</p>
+                    </div>
+                    
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 80'%3E%3Ccircle cx='40' cy='40' r='30' fill='none' stroke='%236b7280' stroke-width='2'/%3E%3Cpath d='M20 20 Q40 10 60 20 Q40 30 20 20' fill='%236b7280'/%3E%3Ctext x='110' y='25' font-family='Arial' font-size='12' fill='%234a5568'%3EKofi Annan%3C/text%3E%3Ctext x='110' y='40' font-family='Arial' font-size='10' fill='%236b7280'%3EFOUNDATION%3C/text%3E%3C/svg%3E" alt="Kofi Annan Foundation">
+                        </div>
+                        <p>Promoting better governance and rule of law</p>
+                    </div>
+                    
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 60'%3E%3Crect x='10' y='10' width='40' height='40' fill='none' stroke='%234c6ef5' stroke-width='2'/%3E%3Ccircle cx='30' cy='30' r='8' fill='%234c6ef5'/%3E%3Ctext x='65' y='25' font-family='Arial' font-size='14' font-weight='bold' fill='%234c6ef5'%3EOslo%3C/text%3E%3Ctext x='65' y='40' font-family='Arial' font-size='12' fill='%236b7280'%3ECenter%3C/text%3E%3C/svg%3E" alt="Oslo Center">
+                        </div>
+                        <p>Peace and human rights cooperation</p>
+                    </div>
+                    
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <div class="wyde-logo">WYDE</div>
+                        </div>
+                        <p>Civic engagement initiatives</p>
+                    </div>
+                    
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 120'%3E%3Cpath d='M20 40 L60 20 L100 40 L100 60 L60 80 L20 60 Z' fill='none' stroke='%23003d82' stroke-width='3'/%3E%3Cpath d='M30 45 L50 35 L70 45 L70 55 L50 65 L30 55 Z' fill='%23ffcc00'/%3E%3Ctext x='120' y='35' font-family='Arial' font-size='11' fill='%23003d82'%3EEuropean Partnership%3C/text%3E%3Ctext x='120' y='50' font-family='Arial' font-size='11' fill='%23003d82'%3Efor Democracy%3C/text%3E%3C/svg%3E" alt="European Partnership for Democracy">
+                        </div>
+                        <p>Supporting civil society movements</p>
+                    </div>
+                    
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 120'%3E%3Crect x='30' y='20' width='120' height='80' fill='%23003d82'/%3E%3Ccircle cx='50' cy='35' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='70' cy='30' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='90' cy='35' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='110' cy='30' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='130' cy='35' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='40' cy='50' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='60' cy='45' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='80' cy='50' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='100' cy='45' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='120' cy='50' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='140' cy='45' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='50' cy='65' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='70' cy='70' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='90' cy='65' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='110' cy='70' r='3' fill='%23ffcc00'/%3E%3Ccircle cx='130' cy='65' r='3' fill='%23ffcc00'/%3E%3Ctext x='90' y='90' text-anchor='middle' font-family='Arial' font-size='10' fill='%23003d82'%3EFunded by the European Union%3C/text%3E%3C/svg%3E" alt="Funded by the European Union">
+                        </div>
+                        <p>European Union funding partnership</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Sign up with your email address to receive news and updates from TruthForge.</p>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="container">
+            <h3 style="color: #a0aec0; margin-bottom: 1rem;">Follow Us</h3>
+            <div class="social-links">
+                <a href="#" class="social-link"><i data-lucide="facebook"></i></a>
+                <a href="#" class="social-link"><i data-lucide="twitter"></i></a>
+                <a href="#" class="social-link"><i data-lucide="linkedin"></i></a>
+                <a href="#" class="social-link"><i data-lucide="instagram"></i></a>
+                <a href="#" class="social-link"><i data-lucide="youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TruthForge</h3>
+                    <p style="color: #a0aec0; margin-bottom: 1rem;">AI That Serves Democracy, Not Destroys It</p>
+                    <p style="color: #a0aec0;">Championing democratic governance in the age of artificial intelligence through community-controlled solutions that prioritize citizen welfare and transparency.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="our-work.html">Our Work</a></li>
+                        <li><a href="our-team.html">Our Team</a></li>
+                        <li><a href="programs.html">Programs & Initiatives</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Get Involved</h3>
+                    <ul>
+                        <li><a href="democracy-labs.html">Join Democracy Labs</a></li>
+                        <li><a href="policy-fellowship.html">Policy Fellowship</a></li>
+                        <li><a href="civic-tech.html">Civic Tech Contributors</a></li>
+                        <li><a href="partnerships.html">Partnership Inquiries</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="research-papers.html">Research Papers</a></li>
+                        <li><a href="policy-briefs.html">Policy Briefs</a></li>
+                        <li><a href="toolkits.html">Toolkits</a></li>
+                        <li><a href="training-materials.html">Training Materials</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 TruthForge. Technology for democracy, transparency, and justice.</p>
+                <p>All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Modal for Democratic AI -->
+    <div id="democraticAI" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Democratic AI Governance</h2>
+            <p>Creating frameworks for AI governance that prioritize citizen welfare over corporate interests through community-controlled development and deployment.</p>
+            
+            <h3>Policy Development</h3>
+            <p>Developing comprehensive policy frameworks that ensure AI systems serve democratic values and citizen interests rather than corporate profits.</p>
+            
+            <h3>Algorithmic Accountability</h3>
+            <p>Building systems to audit and monitor AI decision-making in public sector applications, ensuring transparency and fairness.</p>
+            
+            <h3>Participatory AI Design</h3>
+            <p>Engaging communities in the design and deployment of AI systems that affect their lives, ensuring democratic participation in technological development.</p>
+            
+            <h3>Digital Rights Protection</h3>
+            <p>Safeguarding fundamental rights in digital spaces through privacy-preserving technologies and democratic oversight.</p>
+        </div>
+    </div>
+    
+    <!-- Modal for Transparency -->
+    <div id="transparency" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Government Transparency</h2>
+            <p>Building platforms that make government data accessible and actionable for citizens while creating tools for tracking performance and spending.</p>
+            
+            <h3>Open Data Initiatives</h3>
+            <p>Creating comprehensive platforms that make government data accessible, searchable, and actionable for citizens and civil society organizations.</p>
+            
+            <h3>Transparency Tools</h3>
+            <p>Developing AI-powered systems that help citizens track government performance, spending, and decision-making processes in real-time.</p>
+            
+            <h3>Anti-Corruption Technology</h3>
+            <p>Implementing blockchain-based systems for transparent procurement and resource allocation, reducing opportunities for corruption.</p>
+            
+            <h3>Civic Engagement Platforms</h3>
+            <p>Building tools that facilitate meaningful citizen participation in governance, from policy consultation to budget oversight.</p>
+        </div>
+    </div>
+    
+    <!-- Modal for Electoral -->
+    <div id="electoral" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Electoral Integrity</h2>
+            <p>Developing secure, verifiable voting systems that enhance rather than compromise election integrity while combating misinformation.</p>
+            
+            <h3>Election Security</h3>
+            <p>Creating secure, verifiable voting systems that use advanced cryptography and blockchain technology to ensure election integrity.</p>
+            
+            <h3>Misinformation Combat</h3>
+            <p>Developing community-controlled fact-checking and information verification systems that combat electoral misinformation.</p>
+            
+            <h3>Voter Education</h3>
+            <p>Building AI-powered civic education platforms that inform voters without manipulating their choices or political preferences.</p>
+            
+            <h3>Electoral Transparency</h3>
+            <p>Implementing systems for transparent campaign finance tracking and electoral process monitoring to ensure fair elections.</p>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+        
+        // Modal functionality
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = 'block';
+        }
+        
+        function playVideo() {
+            alert('Video player would open here. This is a placeholder for the actual video content.');
+        }
+        
+        // Close modal functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const modals = document.querySelectorAll('.modal');
+            const closes = document.querySelectorAll('.close');
+            
+            closes.forEach(close => {
+                close.addEventListener('click', function() {
+                    this.closest('.modal').style.display = 'none';
+                });
+            });
+            
+            // Close modal when clicking outside
+            window.addEventListener('click', function(event) {
+                if (event.target.classList.contains('modal')) {
+                    event.target.style.display = 'none';
+                }
+            });
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // Navigation background change on scroll
+            window.addEventListener('scroll', function() {
+                const nav = document.querySelector('.nav');
+                if (window.scrollY > 50) {
+                    nav.style.background = 'rgba(255, 255, 255, 0.95)';
+                    nav.style.backdropFilter = 'blur(10px)';
+                } else {
+                    nav.style.background = 'white';
+                    nav.style.backdropFilter = 'none';
+                }
+            });
+            
+            // Newsletter form submission
+            document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                const email = document.querySelector('.newsletter-input').value;
+                if (email) {
+                    alert('Thank you for subscribing! You will receive updates at: ' + email);
+                    document.querySelector('.newsletter-input').value = '';
+                }
+            });
+        });
+        
+        // Add keyboard navigation for focus cards
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter' && event.target.classList.contains('focus-card')) {
+                event.target.click();
+            }
+        });
+    </script>
+</body>
+</html>
